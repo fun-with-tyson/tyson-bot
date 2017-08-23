@@ -3,7 +3,7 @@ const client = new Discord.Client()
 
 client.login("MzQ5NTA5NjY1MDQ0MDM3NjMz.DH4zTQ.w3EQafkyqYBlGGCMXYyEgZo1RQM")
 
-var prefix = "mb:"
+var prefix = "tb:"
 
 client.on("message", function(message) {
 
