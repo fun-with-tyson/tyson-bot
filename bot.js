@@ -26,3 +26,7 @@ client.on("message", function(message) {
 case "help":
 message.channel.send("Note all commands start with **tb:** **ping**-shows you the current speed of the bot **help**-displays the help guide **this bot is a work in progress**")
 break;
+
+            case "update":
+message.channel.send("**the current verson is 0.1** whats been added is the ping command, the help command and the update command")
+Break;
