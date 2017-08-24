@@ -23,4 +23,6 @@ client.on("message", function(message) {
             message.channel.send(":signal_strength: Pong! Response Time: " + client.ping + "ms")
             break;
 
-
+case "help":
+message.channel.send("Note all commands start with **tb:** **ping**-shows you the current speed of the bot **help**-displays the help guide **this bot is a work in progress**")
+break;
