@@ -22,6 +22,5 @@ client.on("message", function(message) {
         case "pingtime":
             message.channel.send(":signal_strength: Pong! Response Time: " + client.ping + "ms")
             break;
-}case "test":
-            message.channel.send(":signal_strength: test back to you !")
+
 
