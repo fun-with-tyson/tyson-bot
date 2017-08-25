@@ -16,11 +16,11 @@ client.on("message", function(message) {
     switch (args[0]) {
         //ping command
         case "ping":
-            message.channel.send(":signal_strength: Pong!")
+            message.channel.send(":Pong!")
             break;
 
         case "pingtime":
-            message.channel.send(":signal_strength: Pong! Response Time: " + client.ping + "ms")
+            message.channel.send("Pong! Response Time: " + client.ping + "mms")
             break;
 
 case "help":
@@ -28,5 +28,5 @@ message.channel.send("Note all commands start with **tb:** **ping**-shows you th
 break;
 
             case "update":
-message.channel.send("this command was taken from a older verson of pixabot thanks to the devs for letting me use it **the current verson is 0.1** whats been added is the ping command, the help command and the update command")
+message.channel.send("my version is 0.1)
 break;
