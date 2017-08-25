@@ -28,5 +28,5 @@ message.channel.send("Note all commands start with **tb:** **ping**-shows you th
 break;
 
             case "update":
-message.channel.send("**the current verson is 0.1** whats been added is the ping command, the help command and the update command")
-Break;
+message.channel.send("this command was taken from a older verson of pixabot thanks to the devs for letting me use it **the current verson is 0.1** whats been added is the ping command, the help command and the update command")
+break;
