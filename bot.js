@@ -30,3 +30,5 @@ break;
             case "update":
 message.channel.send("my version is 0.1")
 break;
+} 
+})
