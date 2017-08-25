@@ -28,5 +28,5 @@ message.channel.send("Note all commands start with **tb:** **ping**-shows you th
 break;
 
             case "update":
-message.channel.send("my version is 0.1)
+message.channel.send("my version is 0.1")
 break;
