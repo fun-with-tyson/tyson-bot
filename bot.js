@@ -1,11 +1,12 @@
 const Discord = require('discord.js');
 const client = new Discord.Client()
+const music = require('ytdl-core');
 
-client.login("")
+client.login(Sensored)
 
 var prefix = "tb:"
 
-client.on("message", function(message) {
+client.on("message", function(message) 
 
     if (message.author.equals(client.user)) return;
 
@@ -13,7 +14,7 @@ client.on("message", function(message) {
 
     var args = message.content.substring(prefix.length).split(" ");
 
-    switch (args[0]) {
+    switch (args[0]) {  
         //ping command
         case "ping":
             message.channel.send(":Pong!")
@@ -24,11 +25,12 @@ client.on("message", function(message) {
             break;
 
 case "help":
-message.channel.send("Note all commands start with **tb:** **ping**-shows you the current speed of the bot **help**-displays the help guide **this bot is a work in progress**")
+message.channel.send("Note all commands start with **tb:**\n**ping**-shows you the current speed of the bot connection time\n **Server** shows you my main server invite link\n **update** show the current verson of the bot")
+  break;
+  
+  case "server":
+message.channel.send("you asked for my invite link https://discord.gg/NFjngMF")
 break;
 
-            case "update":
-message.channel.send("my version is 0.1")
-break;
-} 
+}
 })
