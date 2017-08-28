@@ -38,10 +38,9 @@ break;
                 var choices = ["Eating a burger at mcdonalds", "trying to stop running.", "playing with tyson", "playing with pixabot"]
                 var rand = choices[Math.floor(Math.random() * choices.length)];                    
                 message.reply(rand)  
-                break
-				
-			case "avatar":
-            message.channel.send("user.avatarURL")
-            break;
+                break;		
+case "avatar":
+ message.channel.send("user.avatarURL")
+break;
 }
 })
