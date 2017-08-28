@@ -1,14 +1,13 @@
 const Discord = require('discord.js');
 const client = new Discord.Client()
-const music = require('ytdl-core');
 
-client.login(Sensored)
+client.login("not here")
 
 var prefix = "tb:"
 
-client.on("message", function(message) 
+if client.on("message", function(message) 
 
-    if (message.author.equals(client.user)) return;
+   if message.author.equals(client.user)) return;
 
     if (!message.content.startsWith(prefix)) return;
 
