@@ -5,7 +5,7 @@ client.login("")
 
 var prefix = "tb:"
 
-   client.on("message", function(message) {
+client.on("message", function(message) {
 
     if (message.author.equals(client.user)) return;
 
@@ -24,7 +24,7 @@ var prefix = "tb:"
             break;
 
 case "help":
-message.channel.send("Note all commands start with **tb:**\n**ping**-shows you the current speed of the bot connection time\n **Server** shows you my main server invite link\n **update** show the current verson of the bot")
+message.channel.send("Note all commands start with **tb:**\n**ping**-shows you the current speed of the bot connection time\n **Server** shows you my main server invite link\n **update** shows the current verson of the bot\n **Status** shows you what Tyson Bot is doing right now ")
   break;
   
   case "server":
@@ -39,6 +39,9 @@ break;
                 var rand = choices[Math.floor(Math.random() * choices.length)];                    
                 message.reply(rand)  
                 break
-            }
+				
+			case "avatar":
+            message.channel.send("user.avatarURL")
+            break;
 }
 })
