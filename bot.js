@@ -158,28 +158,6 @@ message.channel.send ("check out my website here https://sites.google.com/view/t
                 var rand = choices[Math.floor(Math.random() * choices.length)];                    
                 message.reply(rand)  
                 break;
-				
-				case "user":
-			var embed = new Discord.RichEmbed()
-                .setAuthor("${mentionusers.username}s user info")
-                .addField("Name") 
-               .client 
-			   .addField("User Connection")
-			   .connections
-			 .addField("Servers that i am in")
-			  .mutualGuilds
-			  .addField("Does this user have premium")
-			  .premium
-			   .premiumSince
-			    .addField("User")
-				.user
-                .setColor("#0007ff")   
-           message.author.send({embed});
-			var embed = new Discord.RichEmbed()
-					.setColor("#00c9ff") 
-					 .setAuthor("I Sent You A DM with a list of commands")
-                message.channel.send({embed})
-            break;
 	}
 	}
 })
